@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon word guess</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <nav class="clear-fix">
+      <a href="http://clairestolp.github.io"><h1 id="logo">Claire Stolp</h1></a>
+      <ul class="nav-menu clear-fix">
+        <li class="menu-item">About</li>
+        <li class="menu-item">Contact</li>
+        <li class="menu-item">Portfolio</li>
+      </ul>
+    </nav>
+
+    <div class="page-content">
+      <h1 class="page-head">Pokemon Word Guess</h1>
+      <br><br>
+      <div class="page-body clear-fix">
+        <div class="page-section">
+          <h2 class="page-subhead">Who's that pokemon?</h2><br>
+          <p>Guess before Voltorb explodes!</p>
+          <img id="voltorb" src="https://archives.bulbagarden.net/media/upload/thumb/2/27/100Voltorb_AG_anime.png/246px-100Voltorb_AG_anime.png" alt="voltorb">
+          <br><br>
+          <strong>Remaining guesses: </strong><span id="remaining">6</span>
+        </div>
+        <div class="page-section">
+          <div class="gameboy centered">
+            <div id="pokeimg">
+              <img src="https://archives.bulbagarden.net/media/upload/thumb/7/73/004Charmander.png/240px-004Charmander.png" alt="chamander">
+            </div>
+          </div>
+          <div id="game"></div>
+          <div id="stats">
+            <strong>Letters Used: </strong><span id="letters"></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <footer>
+      Copyright &copy; 2018
+    </footer>
+
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+  </body>
+</html>
