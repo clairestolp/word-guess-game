@@ -41,3 +41,5 @@ A pokemon will be chosen from the pokedex API
 If the player gets 6 wrong guesses before filling in the word voltorb will use Self Destruct and reset the game.
 
 Everytime the user gueses wrong the gameboy style prompt will change the message.
+
+If time remains add a hint() function that gives the type after 3 wrong guesses
