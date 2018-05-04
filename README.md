@@ -34,3 +34,12 @@
 6. Don't forget to place your global variables and functions above your object.
    * Remember: global variables, then objects, then calls.
 7. Definitely talk with a TA or your instructor if you get tripped up during this challenge.
+
+##### My Version: Pokemon Word Guess
+A pokemon will be chosen from the pokedex API 
+
+If the player gets 6 wrong guesses before filling in the word voltorb will use Self Destruct and reset the game.
+
+Everytime the user gueses wrong the gameboy style prompt will change the message.
+
+If time remains add a hint() function that gives the type after 3 wrong guesses

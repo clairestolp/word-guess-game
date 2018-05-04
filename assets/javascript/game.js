@@ -526,7 +526,7 @@ function generateProblem (length, input, index) {
       problemString = problemString + ' ' + problemArr[j];
     }
 
-    document.getElementById("game").innerHTML =
+    document.getElementById("problem").innerHTML =
     '<br><br>' + problemString + '<br><br>';
   }
 

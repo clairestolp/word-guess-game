@@ -3,7 +3,10 @@
 \*------------------------------------*/
 html, body{
   font-family: 'Georgia', 'times', 'times new roman', 'serif';
+  background-size: cover;
   margin: auto;
+  height: 100%;
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,7 +69,7 @@ nav{
   #content
 \*------------------------------------*/
 .page-body{
-  background-color: #999;
+  background-color: rgba(0, 0, 0, 0.5);
   margin: auto;
   min-width: 600px;
   max-width: 960px;
@@ -78,24 +81,43 @@ nav{
 
 .page-head{
   text-align: center;
-  font-family: pokemon-title;
+  background-color: white;
+  width: 60%;
+  padding: 20px 0px 20px 0px;
+  margin: auto;
+}
+
+#title {
+  font-family: pokemon-font;
 }
 
 .page-subhead {
-  font-family: pokemon-title;
+  font-family: pokemon-font;
 }
 
 .page-section{
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
   padding: 10px;
   text-align: center;
   width: 35%;
 }
 
 #voltorb {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   margin: 10px;
+  position: absolute;
+  left: 35%;
+  top: 70%;
+}
+
+#pokeball {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 35%;
+  top: 65%;
 }
 
 .gameboy{
@@ -129,10 +151,9 @@ nav{
 #pokeimg img{
   height: 175px;
   width: 175px;
-  margin: 10px;
 }
 
-#game {
+#problem {
   font-size: 16px;
   font-family: pokemon-font;
 }
